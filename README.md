@@ -1,117 +1,79 @@
-Global Crisis Impact on Business & Workforce
-Data Science & Analytics Project
- Overview
+# Global Crisis Impact on Workforce Layoffs  
+### A Data Science & Analytics Project
 
-Economic crises significantly impact business stability and workforce planning.
-This project analyses the relationship between macroeconomic inflation trends and workforce layoffs, using real-world datasets to generate actionable insights for business leaders and policymakers.
+## Project Overview
+This project analyses the relationship between global economic crises—specifically inflation trends—and workforce layoffs across industries. The objective is to understand whether macroeconomic indicators such as inflation can be used to assess layoff risk and workforce instability.
 
-By combining economic indicators with layoff data, the project demonstrates how data-driven decision-making can support organisations during periods of uncertainty.
+The project combines data science techniques with business and economic insights, aligning with real-world decision-making used by organisations, policymakers, and strategic leaders.
 
- Project Objectives
+This work reflects my academic background in **Data Science & Analytics** and my **UK MBA**, with a focus on evidence-based management and analytics-driven strategy.
 
-Analyse historical workforce layoff trends
+---
 
-Study the impact of inflation on workforce risk
+## Problem Statement
+Global economic crises significantly affect organisations and employees, yet many workforce decisions are reactive rather than data-driven.
 
-Apply data science techniques to real-world economic problems
+This project aims to answer:
+- How does inflation correlate with large-scale workforce layoffs?
+- Can inflation trends be used as an early indicator of high layoff risk?
+- What insights can organisations derive to support strategic workforce planning?
 
-Translate analytical results into business insights
+---
 
- Business Context
+## Data Sources
+The project uses two primary datasets:
 
-During periods of high inflation, organisations often face:
+1. **Layoffs Dataset**
+   - Company-level layoff information
+   - Industry classification
+   - Date and scale of layoffs
 
-Increased operating costs
+2. **Inflation Dataset**
+   - Year-wise inflation rates
+   - Macroeconomic indicators representing economic stress
 
-Reduced consumer demand
+Datasets were cleaned, standardised, and merged to enable meaningful analysis.
 
-Pressure to optimise workforce size
+---
 
-Understanding these relationships helps leaders make proactive workforce planning decisions rather than reactive layoffs.
+## Methodology
+The project follows a structured data science workflow:
 
-Datasets Used
+1. Data loading and exploration
+2. Data cleaning and preprocessing
+3. Feature engineering and aggregation
+4. Exploratory Data Analysis (EDA)
+5. Statistical analysis
+6. Predictive modelling using Logistic Regression
+7. Model interpretation and business insights
 
-Layoffs Dataset
-Real-world data capturing workforce layoffs across companies and industries over multiple years.
+---
+## Project Structure
+global-crisis-workforce-analysis/
+│
+├── README.md
+├── data/
+│ ├── layoffs.csv
+│ └── inflation.csv
+└── notebooks/
+└── Crisis_Impact_Data_Science_Project.ipynb
 
-Inflation Dataset
-Macroeconomic inflation data aggregated at a yearly level.
 
-Both datasets were cleaned, standardised, and aggregated to ensure analytical consistency.
+---
 
-Tools & Technologies
+## Author
+**Jeevan Shankar**  
+MBA (UK) – Anglia Ruskin University, Cambridge  
+BSc (Hons) – Data Science & Analytics  
+CMI Registered  
 
-Python
+---
 
-Pandas & NumPy – Data manipulation
+## Future Enhancements
+- Inclusion of additional macroeconomic indicators (GDP, interest rates)
+- Industry-specific predictive models
+- Time-series forecasting
+- Dashboard development using Power BI or Tableau
 
-Matplotlib & Seaborn – Data visualisation
 
-Scikit-learn – Machine learning (Logistic Regression)
-
-Google Colab / Jupyter Notebook
-
- Methodology
-
-Data loading and quality checks
-
-Data cleaning and preprocessing
-
-Feature engineering and aggregation
-
-Exploratory Data Analysis (EDA)
-
-Predictive modelling using Logistic Regression
-
-Model interpretation for business understanding
-
-Key Insights
-
-Periods of higher inflation are associated with an increased risk of workforce layoffs
-
-Inflation can act as an early warning indicator for workforce planning
-
-Simple, interpretable models can provide valuable business insights
-
-Combining economic data with workforce analytics enhances strategic decision-making
-
- Model Interpretation
-
-The Logistic Regression coefficient analysis shows the directional impact of inflation on layoff risk, making the results easily interpretable for non-technical stakeholders.
-
- Limitations
-
-Limited macroeconomic variables (inflation only)
-
-Historical data dependency
-
-Does not capture sudden external shocks in real time
-
-Future Scope
-
-Include additional economic indicators (GDP, interest rates)
-
-Industry-level and company-level modelling
-
-Time-series forecasting for proactive risk assessment
-
-Advanced machine learning models for improved accuracy
-
-Author
-
-Jeevan Shankar
-MBA (Anglia Ruskin University, UK)
-BSc (Hons) Data Science & Analytics
-CMI Registered
-
-Aspiring Data Analyst | Business Analyst | Strategy & Analytics
-
- Why This Project Matters
-
-This project demonstrates the ability to:
-
-Bridge business strategy and data science
-
-Work with real-world, messy data
-
-Deliver actionable insights, not just code
+## Key Techniques and Tools
