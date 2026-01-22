@@ -47,6 +47,14 @@ The project follows a structured data science workflow:
 6. Predictive modelling using Logistic Regression
 7. Model interpretation and business insights
 
+## Key Techniques and Tools
+- Python
+- Pandas & NumPy
+- Matplotlib
+- Scikit-learn
+- Logistic Regression
+- Data Visualisation
+- Model Interpretation
 ---
 ## Project Structure
 global-crisis-workforce-analysis/
@@ -76,4 +84,4 @@ CMI Registered
 - Dashboard development using Power BI or Tableau
 
 
-## Key Techniques and Tools
+
